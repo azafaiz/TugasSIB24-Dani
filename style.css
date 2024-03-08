@@ -1,0 +1,181 @@
+html,
+body {
+  background: #e9e9e9;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /*font-family: 'RobotoDraft', 'Roboto', sans-serif; */
+  font-family: "Source Code Pro", Consolas, monospace;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-banner ul {
+  position: absolute;
+  display: block;
+  list-style: none;
+  /*width: 6000px;  */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+
+.carousel-banner li {
+  float: left;
+  height: 100%;
+  /*width: 1000px;  */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.carousel-banner li > a {
+  display: table-cell;
+  /*width*/
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.carousel-banner li > a h2 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 0;
+}
+
+.carousel-banner li > a h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.carousel-banner li > a p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.carousel-banner ul > li:nth-of-type(1),
+.carousel-banner ul > li:nth-of-type(7) {
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000, #434343);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000, #434343);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-banner ul > li:nth-of-type(2),
+.carousel-banner ul > li:nth-of-type(8) {
+  background: #4b79a1;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b79a1, #283e51);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b79a1, #283e51);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-banner ul > li:nth-of-type(3),
+.carousel-banner ul > li:nth-of-type(9) {
+  background: #fd746c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fd746c, #ff9068);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fd746c, #ff9068);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-banner ul > li:nth-of-type(4),
+.carousel-banner ul > li:nth-of-type(10) {
+  background: #304352;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #304352, #d7d2cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #304352, #d7d2cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-banner ul > li:nth-of-type(5),
+.carousel-banner ul > li:nth-of-type(11) {
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #485563, #29323c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #485563, #29323c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-banner ul > li:nth-of-type(6),
+.carousel-banner ul > li:nth-of-type(12) {
+  background: #c9ffbf;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #c9ffbf, #ffafbd);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #c9ffbf, #ffafbd);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banner-ico-box {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.banner-ico-box a {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 8px;
+  background-color: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.banner-ico-box a.active {
+  opacity: 1;
+}
+
+.btn-banner {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 50px;
+  /* linge-height: 60px; */
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.btn-banner.prev {
+  left: 0;
+}
+
+.btn-banner.next {
+  right: 0;
+}
