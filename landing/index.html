@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AzaMart - Jual Beli</title>
+    <link rel="stylesheet" href="landing.css" />
+
+    <link href="gambar/logo.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  </head>
+  <body class="badan">
+    <nav>
+      <div class="heading">AzaMart</div>
+      <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="../form.html">Beli disini</a></li>
+          <li><a href="../jsdasar.html">Lainya</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+      <a href="#" class="closeButton" onclick="closeNavbar()"> ❌ </a>
+      <a href="#">Beli Disini</a>
+      <a href="#">Lainya</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+      <div class="side1">
+        <h1>Silahkan belanja</h1>
+        <button>
+          <a href="https://shopee.co.id/" target="_blank"> Explore More </a>
+        </button>
+      </div>
+      <div class="side2">
+        <img src="gambar/belanja.jpg" width="500" style="border-radius: 12%" />
+      </div>
+    </div>
+
+    <div class="tanda">
+      <main class="carousel-container">
+        <div class="carousel">
+          <div class="item active">
+            <img src="gambar/ijen.jpg" alt="Image 1" />
+            <p class="caption">Beli topi</p>
+          </div>
+          <div class="item">
+            <img src="gambar/knalpot.jpg" alt="Image 2" />
+            <p class="caption">Knalpot</p>
+          </div>
+          <div class="item">
+            <img src="gambar/lensa.jpg" alt="Image 3" />
+            <p class="caption">Lensa</p>
+          </div>
+          <div class="item">
+            <img src="gambar/kacamata.jpg" alt="Image 3" />
+            <p class="caption">Lensa</p>
+          </div>
+        </div>
+        <button class="btn prev">Kembali</button>
+        <button class="btn next">Lanjut</button>
+        <div class="dots"></div>
+      </main>
+    </div>
+
+    <section class="about" id="My Projects">
+      <div class="content">
+        <div class="title">
+          <span>Pelayan kami</span>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> Penjualan </a>
+            </div>
+            <p>Anda dapat menjual barang anda di platform kami. Cara penjualan di platform kami sangat mudah sekali. Dan terutama platform kami aman untuk transaksi</p>
+          </div>
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> Beli </a>
+            </div>
+            <p>Tentu saja pelayanan kami adalah pembelian barang. Kami menjamin keamanan pada saat transaksi dan kami menjamin barang yang sampai sesuai tujuan</p>
+          </div>
+
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> Pengaduan </a>
+            </div>
+            <p>Kami juga melayani pengaduan anda seperti keluh kesah anda pada saat mengeksplore platform kami</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Daftar sebagai penjual</span></div>
+        <div class="contactMenu">
+          <div class="input1">
+            <div class="label1">Nama</div>
+            <div class="input2">
+              <input type="text" placeholder="Nama lengkap" />
+            </div>
+            <div class="label1">
+              <label>Email</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="Email aktif" />
+            </div>
+            <div class="label1">
+              <label>No Handphone</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="No HP Aktif" />
+            </div>
+            <div class="button">
+              <button>daftar</button>
+            </div>
+          </div>
+          <div class="input3">
+            <div class="rightside1">
+              <div class="title1">
+                <span> Kontak kami </span>
+              </div>
+              <div class="content1">Distrik Rejosari. Cluring - Banyuwangi. Jawa Timur - Indonesia, +98 - 01822382</div>
+              <div class="title1">
+                <span>Tentang kami</span>
+              </div>
+              <div class="content1">
+                Perusahaan kami berdiri sejak 1932. Kopi Kapal Api telah ada sejak zaman penjajahan Belanda datang ke Indonesia. Sebelumnya, perusahaan kopi Kapal Api didirikan, pada tahun 1927, tiga orang bersaudara yaitu Go Soe Loet, Go
+                Bi Tjong dan Go Soe Bin mendirikan pabrik penggorengan kopi di kawasan Pabean, Surabaya dan menghasilkan produk unggulan yang diberi nama Kopi Bubuk Hap Hoo Tjan. Kemudian, produk kopi tersebut dijual berkeliling kampong dan
+                di sekitar Pelabuhan Tanjung Perak dengan sepeda onthel
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="footer">
+        <span>
+          Created By
+          <a href="https://www.facebook.com/dani.subroto.184?locale=id_ID" target="_blank"> AzaMart Dev Team </a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

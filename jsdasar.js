@@ -13,3 +13,18 @@ document.write("<br>");
 let namaP = "jokrori";
 namaP = "Bowo gemoy";
 document.write(namaP);
+document.write("<br>");
+document.write("<br>");
+// 4
+const naMa = "peraberoro";
+naMa = "prabowo";
+document.write(naMa);
+document.write("<br>");
+document.write("<br>");
+// 5
+var x = 10;
+if (true) {
+  var x = 20;
+  document.write("nilai x : ", x);
+}
+document.write("nilai diluar : ", x);
