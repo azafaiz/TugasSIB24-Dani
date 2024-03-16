@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AzaMart - Carousel JS-DOM</title>
+    <title>AzaMart - Jual Beli</title>
     <link rel="stylesheet" href="landing.css" />
 
     <link href="gambar/logo.png" rel="icon" />
@@ -42,47 +42,33 @@
         <img src="gambar/belanja.jpg" width="500" style="border-radius: 12%" />
       </div>
     </div>
-    <br />
-    <br />
-    <div class="tulisan">
-      <h1>Carousel Javascript DOM</h1>
-    </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="karo">
-      <div class="wrapper">
-        <div class="btn" id="btn-left">←</div>
-        <div class="carousel-wrapper" id="carousel-wrapper">
-          <div class="carousel" id="carousel">
-            <div class="item" id="item-left">
-              <div class="card"><img src="gambar/belanja.jpg" alt="adasdasda" /></div>
-              <div class="card"><img src="gambar/belanja.jpg" alt="adasdasda" /></div>
-              <div class="card"><img src="gambar/belanja.jpg" alt="adasdasda" /></div>
-            </div>
-            <div class="item" id="item-active">
-              <div class="card"><img src="gambar/ijen.jpg" alt="adasdasda" /></div>
-              <div class="card"><img src="gambar/ijen.jpg" alt="adasdasda" /></div>
-              <div class="card"><img src="gambar/ijen.jpg" alt="adasdasda" /></div>
-            </div>
-            <div class="item" id="item-right">
-              <div class="card"><img src="gambar/lensa.jpg" alt="adasdasda" /></div>
-              <div class="card"><img src="gambar/lensa.jpg" alt="adasdasda" /></div>
-              <div class="card"><img src="gambar/lensa.jpg" alt="adasdasda" /></div>
-            </div>
+
+    <div class="tanda">
+      <main class="carousel-container">
+        <div class="carousel">
+          <div class="item active">
+            <img src="gambar/ijen.jpg" alt="Image 1" />
+            <p class="caption">Beli topi</p>
+          </div>
+          <div class="item">
+            <img src="gambar/knalpot.jpg" alt="Image 2" />
+            <p class="caption">Knalpot</p>
+          </div>
+          <div class="item">
+            <img src="gambar/lensa.jpg" alt="Image 3" />
+            <p class="caption">Lensa</p>
+          </div>
+          <div class="item">
+            <img src="gambar/kacamata.jpg" alt="Image 3" />
+            <p class="caption">Lensa</p>
           </div>
         </div>
-        <div class="btn" id="btn-right">→</div>
-      </div>
+        <button class="btn prev">Kembali</button>
+        <button class="btn next">Lanjut</button>
+        <div class="dots"></div>
+      </main>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+
     <section class="about" id="My Projects">
       <div class="content">
         <div class="title">
