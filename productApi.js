@@ -1,4 +1,4 @@
-let endpoint = "https://crudcrud.com/api/ddb4e414908c46ef9c87ee3fc44509d9/unicorns";
+let endpoint = "https://crudcrud.com/api/9bb6f7c066604af482f474d6a3ef2f65/unicorns";
 let content = document.getElementById("konten");
 
 let ambil = fetch(endpoint)
